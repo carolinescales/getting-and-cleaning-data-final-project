@@ -79,4 +79,4 @@ Remove the subject and activity columns, output the tidy data set
 ########################################################################
 tidy[,90] = NULL
 tidy[,89] = NULL
-write.table(tidy, "tidy.txt", sep="\t")
+write.table(tidy, "tidy.txt", sep="\t", row.name=FALSE)
